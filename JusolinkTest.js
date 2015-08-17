@@ -24,11 +24,11 @@ jusolinkService.getBalance(
     console.log(error);
 });
 
-var Index = '영동대로';
-var PageNum = 1;
-var PerPage = 20;
-var noSuggest = false;
-var noDifferential = false;
+var Index = '영동대로';       // 검색어
+var PageNum = 1;            // 페이지번호
+var PerPage = 20;           // 페이지 목록 갯수
+var noSuggest = false;      // 수정제시어 기능 끄기
+var noDifferential = false; // 차등검색 기능 끄기
 
 jusolinkService.search(Index, PageNum, PerPage, noSuggest, noDifferential,
   function(Response){
