@@ -1,6 +1,6 @@
 var Jusolink = require('./lib/Jusolink');
 var linkhub = require('linkhub');
-var configuration = {LinkID : '',SecretKey : '',IsTest : false};
+var configuration = {LinkID : '',SecretKey : ''};
 
 exports.config = function(config) {
 	configuration = config;
